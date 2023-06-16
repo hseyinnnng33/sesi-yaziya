@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Lexend+Deca:wght@600&family=Manrope&family=Nosifer&family=Orienta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.genel_h2{
+    font-size: 20px;
+}
+
+.genel_h2 span{
+    font-size: 20px;
+    color: #b36cd2;
+    font-weight: bold;
+}
+
+.main1{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.donustur{
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.main{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    border: 1px solid #c3bdbd;
+    position: relative;
+    text-align: center;
+}
+  
+p{
+    line-height: 1.5;
+}
+  
+.msg {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.soyle1{
+    font-size: 16px;
+    margin: 5px 0;
+    margin-top: 30px;
+}
+  
+.box {
+    border: 2px solid #dcd9d9;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    min-width: 200px;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+.butonlar{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #1a3868;
+    transition: all .2s ease;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:active{
+    transform: scale(1.1);
+}
+
+.bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #42b883;
+    animation: progressAnimation 15s linear forwards;
+}
+
+@keyframes progressAnimation {
+    to {
+      width: 0%;
+    }
+    from {
+      width: 100%;
+    }
+  }
